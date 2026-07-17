@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Search, ShoppingCart, Menu } from "lucide-react";
 import { useCart } from "../../context/CartContext";
 import MobileNav from "./MobileNav";
@@ -14,7 +14,8 @@ const navLinks = [
   { label: "FAQ", to: "/faq" },
 ];
 
-export default function Header({ onSearchOpen }) {
+export default function Header() {
+  const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
@@ -65,8 +66,8 @@ export default function Header({ onSearchOpen }) {
 
             <div className="flex items-center gap-3">
               <button
-                onClick={onSearchOpen}
-                aria-label="Open search"
+                onClick={() => navigate("/products")}
+                aria-label="Search products"
                 className="p-2 text-slate-500 hover:text-ink-900 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-lg"
               >
                 <Search className="w-5 h-5" />
