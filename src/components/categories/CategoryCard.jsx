@@ -32,3 +32,6 @@ export default function CategoryCard({ category }) {
     </Link>
   );
 }
+
+
+//i'll add more features over here
