@@ -45,7 +45,7 @@ export default function Header() {
               to="/"
               className="font-display font-bold text-xl md:text-2xl tracking-tight text-ink-900"
             >
-              OTIC<span className="text-accent">TECH</span>
+              HAND<span className="text-accent">DRIP</span>
             </Link>
 
             <nav className="hidden md:flex items-center gap-8">

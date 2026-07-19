@@ -176,7 +176,7 @@ export default function Contact() {
                 <Mail className="w-5 h-5 text-accent mt-0.5 shrink-0" />
                 <div>
                   <p className="font-body font-medium text-sm text-ink-900">Email</p>
-                  <p className="font-body text-sm text-slate-500">support@otictech.com</p>
+                  <p className="font-body text-sm text-slate-500">support@handdrip.com</p>
                 </div>
               </div>
 

@@ -16,8 +16,8 @@ export default function Home() {
   return (
     <main>
       <Helmet>
-        <title>OTIC TECH — Premium Electronics for Everyday Life</title>
-        <meta name="description" content="Shop premium electronics at OTIC TECH. Curated selection of high-end TVs, smart home devices, computers, and accessories with expert support." />
+        <title>HANDDRIP — Premium Electronics for Everyday Life</title>
+        <meta name="description" content="Shop premium electronics at HANDDRIP. Curated selection of high-end TVs, smart home devices, computers, and accessories with expert support." />
       </Helmet>
 
       <Hero />
