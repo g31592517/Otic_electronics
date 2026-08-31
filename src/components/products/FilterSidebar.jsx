@@ -19,7 +19,7 @@ export default function FilterSidebar({
     <aside className="space-y-8">
       <div>
         <h3 className="font-display font-semibold text-sm text-ink-900 uppercase tracking-wider mb-4">
-          Category
+          Category 
         </h3>
         <div className="space-y-2">
           {categories.map((cat) => (
